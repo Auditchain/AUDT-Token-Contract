@@ -1,7 +1,7 @@
 {
-  "name": "canndollar",
+  "name": "auditchain",
   "version": "1.0.0",
-  "description": "Canndollar ERC20 token contract",
+  "description": "Auditchain ERC20 token contract",
   "main": "index.js",
   "scripts": {
     "test": "scripts/test.sh",
