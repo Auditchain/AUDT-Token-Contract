@@ -656,7 +656,7 @@ contract Token is Pausable, ERC20Detailed, Ownable, ERC20Burnable, MinterRole, L
     address public mintAgent;    
 
     uint16 constant ORIGIN_YEAR = 1970;
-    uint constant YEAR_IN_SECONDS = 31557159;  //average of seconds in 4 years including one leap year 
+    uint constant YEAR_IN_SECONDS = 31557600;  //average of seconds in 4 years including one leap year 
                                                //giving approximate length of year without using precise calender
 
     mapping (uint => bool) public mintedYears;
